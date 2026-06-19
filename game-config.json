@@ -1,0 +1,34 @@
+{
+  "physics": {
+    "gravity": 800,
+    "jumpVelocity": -300,
+    "maxFallSpeed": 600,
+    "unit": "px/s²"
+  },
+  "walls": {
+    "speed": 120,
+    "gapSize": 140,
+    "spacing": 350,
+    "width": 60,
+    "capOverhang": 6,
+    "gapMinPercent": 0.2,
+    "gapMaxPercent": 0.8
+  },
+  "canvas": {
+    "width": 800,
+    "height": 600,
+    "groundHeightPercent": 0.1
+  },
+  "scoring": {
+    "storageKey": "flappyKiro_highScore"
+  },
+  "timing": {
+    "restartDelay": 500
+  },
+  "clouds": {
+    "minSpeed": 30,
+    "maxSpeed": 90,
+    "minOpacity": 0.3,
+    "maxOpacity": 0.7
+  }
+}
